@@ -3,9 +3,9 @@
 
 #Modify the script below thisline
 $ConfigMgrModulePath="D:\SCCM Site\AdminConsole\bin\ConfigurationManager\ConfigurationManager.psd1"
-$SiteCode="AUS"
+$SiteCode="XXX"
 $CollectionType="Device"
-$Domain="STEEL"
+$Domain="XXX"
 #Don't modify the script above this line
 
 
