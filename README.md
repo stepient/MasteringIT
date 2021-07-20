@@ -1,2 +1,2 @@
 # MasteringIT
-These are the code snippets to be used in the Matering IT session 24.06.2021.
+This is the code to be used as demo in PowerShell workshop
