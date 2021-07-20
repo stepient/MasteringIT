@@ -1,20 +1,19 @@
-﻿$VMName="VM01"
+﻿$VMName="VM02"
 
-#Connect-AzAccount
+Connect-AzAccount
 Get-AzVM -Name $VMName
 #Get-AzVM -Name $VMName -ResourceGroupName RG1
 $VM=Get-AzVM -Name $VMName
+
+$VM -eq $false
+$VM -eq $null
+$null -eq $false
 
 If ($VM){
 "$VMName exists"
 } else {
 "$VMName does not exist"
 }
-
-$VM -eq $false
-$VM -eq $null
-$null -eq $false
-
 
 $EmptyString=""
 $EmptyString -eq $null

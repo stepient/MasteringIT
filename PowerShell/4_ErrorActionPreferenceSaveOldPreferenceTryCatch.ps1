@@ -12,6 +12,7 @@ try{
     
     Get-Content C:\dummy.txt
     "This line will not be shown"
+    exit
 }
 
 finally{
@@ -21,3 +22,5 @@ finally{
     $ErrorActionPreference=$OldErrorActionPreference #this line is executed, since it is in finally block 
     "`$ErrorActionPreference: $ErrorActionPreference"
 }
+
+"Continue"
